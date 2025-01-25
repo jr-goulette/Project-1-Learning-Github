@@ -12,4 +12,7 @@ View(mtcars)
 str(mtcars)
 
 ggplot(mtcars, aes(hp, mpg)) +
-  geom_point()
+  geom_point() +
+  xlab("Horsepower") +
+  ylab("Miles/Gallon") +
+  theme_bw()
