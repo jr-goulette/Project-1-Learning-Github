@@ -3,6 +3,7 @@
 #Purpose of file: Learning Git and Github through the mtcars data set
 
 library(tidyverse)
+library(ggplot2)
 
 View(mtcars)
 
@@ -10,4 +11,5 @@ View(mtcars)
 
 str(mtcars)
 
-ggplot()
+ggplot(mtcars, aes(hp, mpg)) +
+  geom_point()
