@@ -16,7 +16,7 @@ str(mtcars)
 
 #Creating a plot
 ggplot(mtcars, aes(hp, mpg)) +
-  geom_point() +
+  geom_point(color = "yellow") +
   xlab("Horsepower") +
   ylab("Miles/Gallon") +
   theme_bw() + 
