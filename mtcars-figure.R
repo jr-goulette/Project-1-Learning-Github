@@ -15,4 +15,5 @@ ggplot(mtcars, aes(hp, mpg)) +
   geom_point() +
   xlab("Horsepower") +
   ylab("Miles/Gallon") +
-  theme_bw()
+  theme_bw() + 
+  ggtitle("Horsepower and its Relationship to MPG")
